@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
     libqminvapi \
     libtime_genoff \
     libmdmdetect \
-    libTimeService
+    libTimeService \
+    vendor.qti.hardware.fm@1.0
 
 # ADSP (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
@@ -39,6 +40,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
 
+# FM (OnePlus OPR6.170623.013)
+ PRODUCT_COPY_FILES += \
+ vendor/xiaomi/dior/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+ vendor/xiaomi/dior/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
+ 
 # ACDB (V8.0.1.0)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
