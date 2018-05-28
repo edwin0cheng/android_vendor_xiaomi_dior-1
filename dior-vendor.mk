@@ -192,10 +192,10 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/bin/location-mq:system/vendor/bin/location-mq \
-    vendor/xiaomi/armani/proprietary/vendor/etc/gps.conf:system/vendor/etc/gps.conf \
-    vendor/xiaomi/armani/proprietary/vendor/etc/izat.conf:system/vendor/etc/izat.conf \
-    vendor/xiaomi/armani/proprietary/vendor/etc/quipc.conf:system/vendor/etc/quipc.conf \
-    vendor/xiaomi/armani/proprietary/vendor/etc/sap.conf:system/vendor/etc/sap.conf \
+    vendor/xiaomi/dior/proprietary/vendor/etc/gps.conf:system/vendor/etc/gps.conf \
+    vendor/xiaomi/dior/proprietary/vendor/etc/izat.conf:system/vendor/etc/izat.conf \
+    vendor/xiaomi/dior/proprietary/vendor/etc/quipc.conf:system/vendor/etc/quipc.conf \
+    vendor/xiaomi/dior/proprietary/vendor/etc/sap.conf:system/vendor/etc/sap.conf \
     vendor/xiaomi/dior/proprietary/vendor/bin/gsiff_daemon:system/vendor/bin/gsiff_daemon \
     vendor/xiaomi/dior/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
